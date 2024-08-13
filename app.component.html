@@ -1,0 +1,158 @@
+<mat-toolbar class="navbar-btn">
+  <button mat-flat-button class="quote-button">REQUEST A QUOTE</button>
+  <button mat-flat-button class="custom-button">VISIT OUR SHOWROOM</button>
+  <button mat-flat-button class="custom-button">WHAT'S IN STOCK</button>
+</mat-toolbar>
+<mat-toolbar>
+  <img width="250px" src="./images/Plumlogo.png" alt="">
+  <span class="example-spacer"></span>
+  <button mat-button>COUNTERTOPS</button>
+  <button mat-button>ARCHITECTURAL</button>
+  <button mat-button [matMenuTriggerFor]="menu">COMMERCIAL</button>
+  <button mat-button [matMenuTriggerFor]="menu">STONE & PRODUCTS
+    <mat-icon>arrow_drop_down</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>BEST SELLERS</button>
+    <button mat-menu-item>QUARTZ</button>
+    <button mat-menu-item>NATURAL STONE</button>
+    <button mat-menu-item>LIVE INVENTORYSS</button>
+  </mat-menu>
+</mat-toolbar>
+<div class="image-container">
+  <img src="./images/Kitchen-slides.jpg" alt="Kitchen Slides">
+  <div class="text-overlay">
+    <h1>ENJOY EVERYDAY LUXURY</h1>
+    <p>It's never been easier to design and achieve your ideal outcome.</p>
+    <button mat-flat-button class="custom-button">REQUEST A QUOTE</button>
+  </div>
+</div>
+<mat-card class="description">
+  <mat-card-content class="mt-card-title">START YOUR JOURNEY</mat-card-content>
+  <mat-card-content>What type of project do you have?</mat-card-content>
+</mat-card>
+<section class="product">
+ <div class="container-fluid">
+   <div class="slider-wrap">
+    <div class="slider-main">
+      <div class="item">
+        <div class="text">
+          <img width="300px" height="800px" src="./images/bathroom.jpg" alt="Kitchen Slides">
+        </div>
+        <div class="image-name">Bathroom</div>
+      </div>
+      <div class="item">
+        <div class="text">
+          <img width="300px" height="800px" src="./images/fireplace.jpg" alt="Kitchen Slides">
+        </div>
+        <div class="image-name">Fireplace</div>
+      </div>
+      <div class="item">
+        <div class="text">
+          <img width="300px" height="800px" src="./images/kitchen.jpeg" alt="Kitchen Slides">
+        </div>
+        <div class="image-name">Kitchen</div>
+      </div>
+      <div class="item">
+        <div class="text">
+          <img width="300px" height="800px" src="./images/living room.png" alt="Kitchen Slides">
+        </div>
+        <div class="image-name">Living Room</div>
+      </div>
+      <div class="item">
+        <div class="text">
+          <img width="300px" height="800px" src="./images/wall cladding.jpg" alt="Kitchen Slides">
+        </div>
+        <div class="image-name">Wall Cladding</div>
+      </div>
+    </div>
+    <div class="button-area">
+      <button mat-button type="button" class="prev" appPrev>Prev</button>
+      <button mat-button type="button" class="next" appNext>Next</button>
+    </div>
+   </div>
+ </div>
+</section>
+<mat-card class="description">
+  <mat-card-content class="mt-card-title">SHOP YOUR COUNTERTOP BY MATERIAL AND FUNCTION</mat-card-content>
+  <mat-card-content>Find the perfect stone and countertop for your home.</mat-card-content>
+</mat-card>
+<section class="product">
+  <div class="container-fluid">
+    <div class="slider-wrap">
+     <div class="slider-main">
+       <div class="item">
+         <div class="text">
+           <img width="300px" height="800px" src="./images/bathroom.jpg" alt="Kitchen Slides">
+         </div>
+       </div>
+       <div class="item">
+         <div class="text">
+           <img width="300px" height="800px" src="./images/fireplace.jpg" alt="Kitchen Slides">
+         </div>
+       </div>
+       <div class="item">
+         <div class="text">
+           <img width="300px" height="800px" src="./images/kitchen.jpeg" alt="Kitchen Slides">
+         </div>
+       </div>
+       <div class="item">
+         <div class="text">
+           <img width="300px" height="800px" src="./images/living room.png" alt="Kitchen Slides">
+         </div>
+       </div>
+       <div class="item">
+         <div class="text">
+           <img width="300px" height="800px" src="./images/wall cladding.jpg" alt="Kitchen Slides">
+         </div>
+       </div>
+     </div>
+     <div class="button-area">
+       <button mat-button type="button" class="prev" appPrev>Prev</button>
+       <button mat-button type="button" class="next" appNext>Next</button>
+     </div>
+    </div>
+  </div>
+ </section>
+ <mat-card appearance="outlined" class="footer">
+  <mat-list role="list">
+    <mat-list-item role="listitem">
+      <img width="250px" src="./images/Plumlogo.png" alt="">
+    </mat-list-item>
+    <mat-list-item role="listitem">CALL: 555-555-9855</mat-list-item>
+    <mat-list-item role="listitem">Email:"infoplumbuilder.com"</mat-list-item>
+    <mat-list-item role="listitem">FACTORY LOCATION</mat-list-item>
+    <mat-list-item role="listitem">28 NURSERY LANE,</mat-list-item>
+    <mat-list-item role="listitem">RYE, NY,10580S</mat-list-item>
+  </mat-list>
+  <mat-list role="list">
+    <mat-list-item role="listitem">
+     DESIGN ASSISTANCE
+    </mat-list-item>
+    <mat-list-item role="listitem">MEASUREMENTS</mat-list-item>
+    <mat-list-item role="listitem">FREE DESIGN GUIDE</mat-list-item>
+    <mat-list-item role="listitem">DESIGN CONSULTATION</mat-list-item>
+    <mat-list-item role="listitem">VISUALIZER</mat-list-item>
+  </mat-list>
+  <mat-list role="list">
+    <mat-list-item role="listitem">
+      ABOUT US
+    </mat-list-item>
+    <mat-list-item role="listitem">WHO WE ARE </mat-list-item>
+    <mat-list-item role="listitem">WHAT WE DO</mat-list-item>
+    <mat-list-item role="listitem">HOW WE DO IT</mat-list-item>
+    <mat-list-item role="listitem">SHOWROOM</mat-list-item>
+    <mat-list-item role="listitem">TRADE PROFESSIONALS</mat-list-item>
+  </mat-list>
+  <mat-list role="list" class="text-chng">
+    <mat-list-item role="listitem">
+      COMPANY INFO
+    </mat-list-item>
+    <mat-list-item role="listitem">FINANCING</mat-list-item>
+    <mat-list-item role="listitem">CAREERS</mat-list-item>
+    <mat-list-item role="listitem"> MADE IS USA</mat-list-item>
+    <mat-list-item role="listitem">BLOG</mat-list-item>
+    <mat-list-item role="listitem">RESOURCES</mat-list-item>
+  </mat-list>
+</mat-card>
+<router-outlet />
