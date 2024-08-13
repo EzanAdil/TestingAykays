@@ -1,0 +1,155 @@
+.navbar-btn {
+    display: flex;
+    justify-content: space-between; /* Ensures the buttons are evenly spaced */
+    padding: 0;
+  }
+  
+  .custom-button {
+    flex: 1; /* This makes each button take equal space */
+    margin: 0 5px; /* Small margin between buttons */
+    border-radius: 0; /* Removes side curves */
+    min-width: 0; /* Removes the default minimum width */
+  }
+  
+  .quote-button {
+    margin-left: 0;
+    flex: 1; /* This makes each button take equal space */
+    margin: 0 5px; /* Small margin between buttons */
+    border-radius: 0; /* Removes side curves */
+    min-width: 0;
+    color: bisque; /* Removes margin from the leftmost button */
+  }
+  
+  .custom-button:last-child {
+    margin-right: 0; /* Removes margin from the rightmost button */
+  }
+  
+  .mat-mdc-unelevated-button:not(:disabled) {
+    background-color: rgba(3, 3, 3, 0.495) !important;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .image-container {
+    position: relative;
+    width: 90%; /* Controls the width of the image */
+    margin: 0 auto; /* Centers the image horizontally */
+    padding-top: 20px; /* Adds space above the image */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px; /* Optional: adds rounded corners */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: black;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 10px 20px;
+    border-radius: 5px; /* Optional: adds rounded corners */
+  }
+  
+  .text-overlay h1 {
+    margin: 0;
+    font-size: 3em; /* Adjust size as needed */
+  }
+  
+  .text-overlay p {
+    margin: 5px 0 0;
+    font-size: 1.2em; /* Adjust size as needed */
+  }
+  .product{
+    padding: 40px 0;
+  }
+  .slider-wrap{
+    position: relative;
+    overflow: hidden;
+    height: 398px;
+  }
+  .slider-main{
+    position: absolute;
+    width: 200%;
+    margin-left: 20px
+  }
+  .item{
+    display: inline-block;
+    width: 391px;
+    height: 150px;
+    /* background: rgb(164, 4, 4); */
+    position: relative;
+    margin: 0 12px;
+  }
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .prev{
+   position: absolute;
+   top: 50%;
+   left: 71px;
+   transform: translate(-50%, -50%);
+   font-size: 16px; /* Font size */
+   font-weight: bold;
+   background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+   color: white; 
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .next{
+    position: absolute;
+    right: 23px;
+    top: 50%;
+    transform: translate(-10%, -10%);
+    font-size: 16px; /* Font size */
+   font-weight: bold;
+   background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+   color: white; 
+  }
+  .mat-mdc-button.prev{
+    color: white !important;
+  }
+  .mat-mdc-button.next{
+    color: white !important;
+  }
+  .image-name {
+    position: absolute;
+    width: 300px;
+    left: 44px;
+    bottom: -250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  .mat-mdc-card.description{
+    box-shadow: none !important;
+    left: 60px;
+    top: 50px;
+  }
+  .mat-mdc-card-content:first-child.mt-card-title{
+    font-weight: bolder !important;
+    font-size: larger !important;
+  }
+  .mat-mdc-card.footer{
+    background-color: rgb(60, 59, 59);
+    color: white;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+  }
+  .mdc-list-item__primary-text {
+    color: white !important;
+  }
+  .mdc-list-item__primary-text.text-chng{
+    color: white !important;
+  }
+  
